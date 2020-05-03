@@ -58,6 +58,7 @@ body {
     width: 6.25rem;
     font-weight: bold;
     font-size: 2rem;
+    cursor: pointer;
     border: 2px solid black;
 }
 
@@ -70,6 +71,7 @@ body {
     width: 6.25rem;
     font-weight: bold;
     font-size: 2rem;
+    cursor: pointer;
     border: 2px solid black;
 }
 
@@ -77,8 +79,16 @@ body {
     background-color: #ebebeb;
 }
 
+.normal:active {
+    background-color: #bbbcbe;
+}
+
 .function:hover {
     background-color: #dfb07e;
+}
+
+.function:active {
+    background-color: #dd8d37;
 }
 
 .sixteen {
